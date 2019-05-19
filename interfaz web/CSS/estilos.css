@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    background: #3D7D6C;
+}
 .father {
     display: flex;
     flex-direction: column;
@@ -11,13 +15,14 @@
 }
 
     .header_img {
-        flex-basis: 5%;
+        flex-basis: 15%;
         margin-left: 50px;
     }
 
         .header_img img {
             height: 100px;
             width: 122px;
+            padding-left: 50%;
         }
 
     .header_h1 {
@@ -44,55 +49,71 @@
         color: #FFFFFF;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
+        padding-left: 7%;
     }
 
 .body {
-    background: blue;
+    background: #3D7D6C;
     display: flex;
-    
 }
 
     .information {
-        background: yellow;
         display: flex;
         flex-direction: column;
         flex-basis: 50%;
+        margin: 10px 3% 10px 3%;
+        color: #FFFFFF;
     }
 
         .mision {
-            background: gray;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            text-align: center;
         }
+
+            .mision h2 {
+                font-family: 'Roboto-Medium', sans-serif;
+            }
+
+            .mision p {
+                font-family: 'Roboto-regular', sans-serif;
+            }
 
         .view {
-            background: gray;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
+            text-align: center;
         }
 
+            .view h2 {
+                font-family: 'Roboto-Medium', sans-serif;
+            }
+
+            .view p {
+                font-family: 'Roboto-regular', sans-serif;
+            }
+
     .images{
-        background: blueviolet;
+        border-left-style: solid;
+        border-left-color: #C8F7EC; 
+        color: #FFFFFF;
         display: flex;
         flex-direction: column;
         justify-content: center;        
         flex-basis: 50%;
     }
 
-    .images div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-    }
-    
+        .images div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+        }
+            .images div img {
+                padding-bottom: 50px;
+            }
 
 
 .footer {
-    background: orange;
+    background: #8AABA3;
+    color: #FFFFFF;
+    font-family: 'Roboto-regular', sans-serif;
     display: flex;
     justify-content: center;
 }
