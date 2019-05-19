@@ -1,0 +1,32 @@
+body {
+    color: #ffffff;
+    background: #617872;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+    img {
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+    }  
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer a {
+        color: #ffffff;
+    }
