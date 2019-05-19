@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/estilos_formulario_servicio.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto:400,500,700&display=swap" rel="stylesheet">
+    <title>Solicitud de servicio</title>
+</head>
+<body>
+    <h1>Solicitud de servicio</h1>
+    <div id="formulario">
+            <form action="#" >
+                    <p>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name"/>
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="lastName"/>
+                    </p>
+                    <p>
+                        Sexo: 
+                        M<input type="radio" name="sex" value="M"/>
+                        F<input type="radio" name="sex" value="F"/>
+                    </p>
+                    <p>
+                    Tipo de documento: 
+                    <select>
+                        <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                        <option value="cédula">cédula</option>
+                        <option value="pasaporte">pasaporte</option>
+                    </select>
+                    </p>
+                    <p>
+                        <label for="documento ">Número de documento: </label>
+                        <input type="text" id="documento"/>
+                    </p>
+                    <p>
+                        Tipo de servicio: 
+                        <select>
+                            <option value="redes">redes</option>
+                            <option value="mantenimiento">mantenimiento</option>
+                            <option value="reparación">reparación</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        Descripción del servicio: 
+                    </p>
+                    <textarea name="descripcion" id="description" cols="auto" rows="10"></textarea>
+                    <p id="btn_enviar">
+                            <input type="submit" value="enviar">
+                     </p>
+                     
+                </form>
+    </div>
+
+    <footer>
+        <a href="principal.html">Inicio</a>
+    </footer>
+    
+</body>
+</html>

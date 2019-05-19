@@ -1,0 +1,40 @@
+body {
+    background: #7EC5B3;
+}
+    h1 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+#formulario {
+    display: flex;
+    padding-left: 3%; 
+    padding-bottom: 1%;
+    background: #8AABA3;
+    margin: 0 20%;
+}
+
+    #formulario form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+         color: #ffffff;
+    }
+
+    #btn_enviar {
+        display: flex;
+        justify-content: center;
+    }
+
+footer {
+    margin-top: 1%;
+    text-align: center;
+}
+
+    footer a {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    }
