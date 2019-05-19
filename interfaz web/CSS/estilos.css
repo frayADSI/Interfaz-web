@@ -1,0 +1,98 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    
+}
+.header {
+    background: #333837;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+
+    .header_img {
+        flex-basis: 5%;
+        margin-left: 50px;
+    }
+
+        .header_img img {
+            height: 100px;
+            width: 122px;
+        }
+
+    .header_h1 {
+        display: flex;
+        flex-basis: 70%;
+        justify-content: center;
+    }
+        .h1 {
+            color: #E2D1D1;
+            font-family: 'Roboto-Medium', sans-serif;
+            font-size: 13pt;
+        }
+    
+
+.navbar {
+    background: #617872;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    .navbar a {
+        color: #FFFFFF;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+    }
+
+.body {
+    background: blue;
+    display: flex;
+    
+}
+
+    .information {
+        background: yellow;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+
+        .mision {
+            background: gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .view {
+            background: gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+    .images{
+        background: blueviolet;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+        flex-basis: 50%;
+    }
+
+    .images div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+
+
+.footer {
+    background: orange;
+    display: flex;
+    justify-content: center;
+}
