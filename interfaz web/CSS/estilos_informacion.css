@@ -30,3 +30,11 @@ p {
     footer a {
         color: #ffffff;
     }
+
+@media (max-width: 1020px) {
+    .images {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
